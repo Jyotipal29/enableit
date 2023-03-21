@@ -1,0 +1,63 @@
+:root {
+	--clr-primary: #271033;
+	--clr-base: #FFFD77;
+	--clr-accent: #FA8334;
+	--clr-secondary: #9EEFE5;
+	--clr-secondary-dark: #242325;
+
+	--space-xs: 5px;
+	--space-sm: 10px;
+	--space-md: 15px;
+	--space-lg: 25px;
+}
+
+body {
+	background-color: var(--clr-base);
+}
+
+.flex {
+	display: flex;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fit {
+	width: 100%;
+	height: 100%;
+}
+
+.gap-xs {
+	gap: var(--space-xs);
+}
+
+.gap-sm {
+	gap: var(--space-sm);
+}
+
+.gap-md {
+	gap: var(--space-md);
+}
+
+.gap-lg {
+	gap: var(--space-lg);
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
